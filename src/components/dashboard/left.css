@@ -1,0 +1,39 @@
+.leftMenu {
+  width: 8rem;
+  /* height: 102%; */
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  .leftMenu {
+    width: 6rem; /* Adjust width for smaller screens if needed */
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .leftMenu {
+    width: 5rem;
+    display: none;
+
+    /* Further adjustment for very small screens */
+  }
+}
+
+.taskButton {
+  font-weight: bold;
+  background-color: rgb(255, 196, 0);
+  color: white;
+  padding: 2rem;
+}
+
+.totaltask {
+  /* margin-top: 12px; */
+  /* padding: 1.5rem; */
+  font-weight: 600;
+  background-color: rgb(115, 115, 226);
+  color: white;
+}
